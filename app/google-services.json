@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622632218596",
+    "firebase_url": "https://student-help-desk-7d7fd.firebaseio.com",
+    "project_id": "student-help-desk-7d7fd",
+    "storage_bucket": "student-help-desk-7d7fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622632218596:android:4e620bfeb26689dc",
+        "android_client_info": {
+          "package_name": "test.studenthelpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622632218596-upk84rifnq7g4iqc50dief5h2srblen8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.studenthelpdesk",
+            "certificate_hash": "c17835d95bf293d182b929f7d020e4d4670e6b67"
+          }
+        },
+        {
+          "client_id": "622632218596-djsn2tre42347dffj6icuqct9hpkdi47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT-JtiACJFWJY6dKRGQUSiGPFpkmq_WW8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622632218596-djsn2tre42347dffj6icuqct9hpkdi47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

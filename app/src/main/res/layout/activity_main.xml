@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HelpDeskRed"
+    tools:context="test.studenthelpdesk.MainActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_login"
+        android:layout_width="214dp"
+        android:layout_height="54dp"
+
+        android:text="Sign On!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        tools:text="Sign In!"
+        android:layout_marginBottom="213dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="41dp"
+        android:orientation="horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/web_op" />
+
+
+</RelativeLayout>
